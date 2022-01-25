@@ -1,19 +1,16 @@
-body {
-    margin: 0;
-    padding: 0;
-  }
+
   .header_section1 {
     display: flex;
     margin: 30px;
     margin-left: 50px;
     border-bottom: 1px solid rgb(214, 208, 208);
   }
-  .header_p {
-    margin-right: 200px;
-  }
-  .header_i {
+  .header_link {
+    margin-left: 650px;
     margin-top: 20px;
+    margin-bottom: 20px;
   }
+  .header_link a {
   .header_a {
     margin-left: 410px;
     margin-top: 20px;
@@ -27,7 +24,7 @@ body {
     color: white;
     font-size: 1.1em;
   }
-  .header_a a:hover {
+  .header_link a:hover {
     background-color: black;
     border: black;
     transition: 0.1s;
@@ -40,61 +37,66 @@ body {
   }
   
   /* HEADER SECTION 2 */
-  .header_section2 {
+
+  .header_section2{
     display: flex;
     margin: 40px;
-    /* border: 1px solid rgb(16, 16, 179); */
+    border-bottom: 1px solid rgb(214, 208, 208);
+    padding-bottom: 30px;
   }
-  .header_logo {
-    margin-right: 150px;
+  .header_logo{
+    margin-right: 350px;
   }
-  .header_localisation {
-    margin-left: 100px;
+  .header_localisation{
+    margin-left: 110px;
     margin-top: 40px;
   }
-  
-  .header_p1 {
-    margin-left: 20px;
-    margin-right: 20px;
-    border-right: 1px solid rgb(214, 208, 208);
+  .header_address{
+    margin-left: 50px;
     margin-top: 5px;
-    margin-bottom: 0px;
+    margin-right: 20px;
     padding-right: 10px;
     height: 65px;
+    border-right: 1px solid rgb(214, 208, 208);
   }
-  .header_telephone {
+  .header_telephone{
     margin-top: 20px;
   }
-  .header_p2 {
+  .header_phone{
     margin-left: 10px;
     margin-top: 5px;
-    border-right: 1px solid rgb(214, 208, 208);
     padding-right: 8px;
     height: 65px;
+    border-right: 1px solid rgb(214, 208, 208);
   }
-  .header_horloge {
-    margin-left: 20px;
+  .header_clock{
     margin-right: 20px;
+    margin-left: 20px;
     margin-top: 30px;
   }
-  .header_p3 {
+  .header_hour{
     margin-top: 10px;
   }
-  
-  @media all and (max-width: 991px) {
-    .header_section1 {
-      display: none;
-    }
-    .header_logo {
-      margin-left: 100px;
-    }
-    .header_localisation,
-    .header_p1,
-    .header_telephone,
-    .header_p2,
-    .header_horloge,
-    .header_p3 {
-      display: none;
-    }
+
+  /* NAVIGATION BAR */
+
+  .nav_bar ul{
+    list-style: none;
+    display: flex;
+    margin-left: 370px;
     
+  }
+  .nav_bar ul li a{
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 0.8em;
+    color: rgb(72, 86, 212);
+  }
+
+  /* SECTION HOME */
+
+  .home_section{
+    background-image: url(img/house.jpeg);
+    width: 100%; 
+    height: 250%;
   }
