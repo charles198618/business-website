@@ -98,7 +98,7 @@
     color: rgb(72, 86, 212);
   }
 
-  /********************************************* HOMEPAGE ******************************************/
+  /*************** HOMEPAGE **************/
 .homepage {
   height: 600px;
   border: 1px solid rgb(249, 251, 253);
@@ -107,63 +107,59 @@
   background-repeat: no-repeat;
 }
 
-/********************************************* SERVICES ******************************************/
+/*************** SERVICES **************/
+
 .services{
+  border: 1px solid  rgb(223, 230, 236);
+  padding: 30px;
+  background-color: rgb(223, 230, 236);
+
+}
+.services h1{
   text-align: center;
-  margin-top: 80px;
-  background-color: cornsilk;
-  /* margin-bottom: 150px; */
 }
-
-.services1 h1{
- border: 1px solid rgb(20, 171, 209);
- border-top: none;
- border-right: none;
- border-left: none;
- padding-right: 500;
- /* margin-left: 500; */
- padding-bottom: 30px;
+.span{
+  border: 1px solid green;
+  margin-left: 600px;
+  margin-right: 600px;
 }
-.services1 span{
-    border: 1px solid rgb(20, 171, 209);
-    width: 50%; 
-}
-
 .services2{
-  font-size: 1.3em;
+  text-align: center;
 }
-
-/********************************************* BOTH-SIDES ******************************************/
 .service-offered{
   display: flex;
-  text-align: left;
-  font-size: 1.2em;
-  margin-top: 30px;
-  
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-left: 200px;
+  margin-right: 80px;
+}
+.right{
+  margin-left:10px;
+  padding: 10px;
+}
+.right ul li{
+  padding: 9px;
+}
+.left ul li{
+  padding: 9px;
 }
 
-.left{
-  margin-left: 100px;
-} 
 
-.right{
-  margin-left: 300px;
-} 
 
-/********************************************* LAST-SECTION ******************************************/
+/* **********  SECTION 6 *************/
+
 .both-sides{
   display: flex;
-  text-align: left;
-  font-size: 1.2em;
   margin-top: 70px;
-  
+  margin-left: 60px;
+  border: 1px solid red;
 }
-
-.left1{
-  margin-left: 100px;
-} 
-
 .right1{
-  margin-left: 350px;
-} 
-
+  margin-left: 240px;
+}
+.left1 h3{
+  font-weight: bold;
+  font-size: 1.5em;
+  border-bottom: 1px solid  green ;
+}
