@@ -98,10 +98,72 @@
     color: rgb(72, 86, 212);
   }
 
-  /* SECTION HOME */
+  /********************************************* HOMEPAGE ******************************************/
+.homepage {
+  height: 600px;
+  border: 1px solid rgb(249, 251, 253);
+  background-image: url(img/house2.jpg);
+  width: 300%;
+  background-repeat: no-repeat;
+}
 
-  .home_section{
-    background-image: url(img/house.jpeg);
-    width: 100%; 
-    height: 250%;
-  }
+/********************************************* SERVICES ******************************************/
+.services{
+  text-align: center;
+  margin-top: 80px;
+  background-color: cornsilk;
+  /* margin-bottom: 150px; */
+}
+
+.services1 h1{
+ border: 1px solid rgb(20, 171, 209);
+ border-top: none;
+ border-right: none;
+ border-left: none;
+ padding-right: 500;
+ /* margin-left: 500; */
+ padding-bottom: 30px;
+}
+.services1 span{
+    border: 1px solid rgb(20, 171, 209);
+    width: 50%; 
+}
+
+.services2{
+  font-size: 1.3em;
+}
+
+/********************************************* BOTH-SIDES ******************************************/
+.service-offered{
+  display: flex;
+  text-align: left;
+  font-size: 1.2em;
+  margin-top: 30px;
+  
+}
+
+.left{
+  margin-left: 100px;
+} 
+
+.right{
+  margin-left: 300px;
+} 
+
+/********************************************* LAST-SECTION ******************************************/
+.both-sides{
+  display: flex;
+  text-align: left;
+  font-size: 1.2em;
+  margin-top: 70px;
+  
+}
+
+.left1{
+  margin-left: 100px;
+} 
+
+.right1{
+  margin-left: 350px;
+} 
+
