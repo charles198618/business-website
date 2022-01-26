@@ -5,18 +5,23 @@
     margin-left: 50px;
     border-bottom: 1px solid rgb(214, 208, 208);
   }
+  .header_p {
+    margin-right: 200px;
+  }
+  .header_i {
+    margin-top: 20px;
+  }
   .header_link {
     margin-left: 650px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  .header_link a {
-  .header_a {
+  /* .header_link {
     margin-left: 410px;
     margin-top: 20px;
     margin-bottom: 20px;
-  }
-  .header_a a {
+  } */
+  .header_link a {
     text-decoration: none;
     border: 1px solid blue;
     padding: 10px;
