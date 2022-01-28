@@ -155,10 +155,13 @@
   margin-left: 60px;
   border: 1px solid red;
 }
+
 .right1{
-  margin-left: 240px;
+  margin-left: 340px;
 }
+
 .left1 h3{
+  margin-right: 120px;
   font-weight: bold;
   font-size: 1.5em;
   border-bottom: 1px solid  green ;
