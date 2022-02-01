@@ -166,3 +166,31 @@
   font-size: 1.5em;
   border-bottom: 1px solid  green ;
 }
+
+/* **********  SECTION INSPECTOR *************/
+
+.container_inspector{
+  padding-top: 5px;
+}
+
+.cont-inspector{
+  font-size: xx-large;
+  font-weight: bold;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+
+
+}
+
+.container_program{
+  padding-top: 5px;
+
+}
+
+.cont_inspector-pict{
+  margin-right: 200px;
+
+}
+
