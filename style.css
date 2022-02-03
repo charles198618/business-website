@@ -337,4 +337,71 @@ padding: 40px;
     }
 
 
+    /* *************************THE FOOTER******************************* */
+
+    * {
+      text-decoration: none;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .footer1 {
+      background-image: url(img/bg-image-4.jpg);
+      overflow: hidden;
+      /* color: white; */
+      padding: 100px;
+      font-family: Arial;
+      font-weight: bolder;
+      font-size: 1em;
+    }
+    
+    .container1 {
+      margin: 30px;
+      margin-top: 20px;
+    }
+    
+    .link {
+      border-bottom: 2px solid rgb(228, 223, 223);
+      padding-bottom: 30px;
+    }
+    
+    li {
+      display: inline;
+      padding: 7px;
+      font-size: 0.9em;
+      margin-right: 10px;
+      font-family: arial;
+    }
+    
+    li a {
+      color: rgb(62, 122, 182);
+    }
+    
+    ul span li {
+      margin-left: 1200px;
+    }
+    .footer2 {
+      margin: 30px;
+      margin-top: 20px;
+      display: flex;
+      margin-bottom: 0;
+    }
+    .footer2 span {
+      color: rgb(62, 122, 182);
+      font-family: arial;
+      font-size: 0.9em;
+    }
+    .footer2 img {
+      margin-left: 420px;
+      border: 1px solid rgb(228, 223, 223);
+      padding: 10px;
+    }
+    .footer2 img {
+      /* display: none; */
+    }
+    .footer2 img:hover {
+      background-color: rgb(62, 122, 182);
+    }
+    
+
 
