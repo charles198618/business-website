@@ -1,148 +1,147 @@
+.header_section1 {
+  display: flex;
+  margin: 30px;
+  margin-left: 50px;
+  border-bottom: 1px solid rgb(214, 208, 208);
+}
+.header_p {
+  margin-right: 200px;
+}
+.header_i {
+  margin-top: 20px;
+}
+.header_link {
+  margin-left: 650px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* .header_link {
+  margin-left: 410px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+} */
+.header_link a {
+  text-decoration: none;
+  border: 1px solid blue;
+  padding: 10px;
+  background-color: rgb(16, 16, 179);
+  color: white;
+  font-size: 1.1em;
+}
+.header_link a:hover {
+  background-color: black;
+  border: black;
+  transition: 0.1s;
+  cursor: pointer;
+}
+.empty {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
 
-  .header_section1 {
-    display: flex;
-    margin: 30px;
-    margin-left: 50px;
-    border-bottom: 1px solid rgb(214, 208, 208);
-  }
-  .header_p {
-    margin-right: 200px;
-  }
-  .header_i {
-    margin-top: 20px;
-  }
-  .header_link {
-    margin-left: 650px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  /* .header_link {
-    margin-left: 410px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  } */
-  .header_link a {
-    text-decoration: none;
-    border: 1px solid blue;
-    padding: 10px;
-    background-color: rgb(16, 16, 179);
-    color: white;
-    font-size: 1.1em;
-  }
-  .header_link a:hover {
-    background-color: black;
-    border: black;
-    transition: 0.1s;
-    cursor: pointer;
-  }
-  .empty {
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-top: 20px;
-  }
+/* HEADER SECTION 2 */
+
+.header_section2{
+  display: flex;
+  margin: 40px;
+  border-bottom: 1px solid rgb(214, 208, 208);
+  padding-bottom: 30px;
+}
+.header_logo{
+  margin-right: 350px;
+}
+.header_localisation{
+  margin-left: 110px;
+  margin-top: 40px;
+}
+.header_address{
+  margin-left: 50px;
+  margin-top: 5px;
+  margin-right: 20px;
+  padding-right: 10px;
+  height: 65px;
+  border-right: 1px solid rgb(214, 208, 208);
+}
+.header_telephone{
+  margin-top: 20px;
+}
+.header_phone{
+  margin-left: 10px;
+  margin-top: 5px;
+  padding-right: 8px;
+  height: 65px;
+  border-right: 1px solid rgb(214, 208, 208);
+}
+.header_clock{
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.header_hour{
+  margin-top: 10px;
+}
+
+/* NAVIGATION BAR */
+
+.nav_bar ul{
+  list-style: none;
+  display: flex;
+  margin-left: 370px;
   
-  /* HEADER SECTION 2 */
+}
+.nav_bar ul li a{
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 0.8em;
+  color: rgb(72, 86, 212);
+}
 
-  .header_section2{
-    display: flex;
-    margin: 40px;
-    border-bottom: 1px solid rgb(214, 208, 208);
-    padding-bottom: 30px;
-  }
-  .header_logo{
-    margin-right: 350px;
-  }
-  .header_localisation{
-    margin-left: 110px;
-    margin-top: 40px;
-  }
-  .header_address{
-    margin-left: 50px;
-    margin-top: 5px;
-    margin-right: 20px;
-    padding-right: 10px;
-    height: 65px;
-    border-right: 1px solid rgb(214, 208, 208);
-  }
-  .header_telephone{
-    margin-top: 20px;
-  }
-  .header_phone{
-    margin-left: 10px;
-    margin-top: 5px;
-    padding-right: 8px;
-    height: 65px;
-    border-right: 1px solid rgb(214, 208, 208);
-  }
-  .header_clock{
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 30px;
-  }
-  .header_hour{
-    margin-top: 10px;
-  }
-
-  /* NAVIGATION BAR */
-
-  .nav_bar ul{
-    list-style: none;
-    display: flex;
-    margin-left: 370px;
-    
-  }
-  .nav_bar ul li a{
-    text-decoration: none;
-    margin-right: 30px;
-    font-size: 0.8em;
-    color: rgb(72, 86, 212);
-  }
-
-  /*************** HOMEPAGE **************/
+/*************** HOMEPAGE **************/
 .homepage {
-  height: 600px;
-  border: 1px solid rgb(249, 251, 253);
-  background-image: url(img/house2.jpg);
-  width: 300%;
-  background-repeat: no-repeat;
+height: 600px;
+border: 1px solid rgb(249, 251, 253);
+background-image: url(img/house2.jpg);
+width: 300%;
+background-repeat: no-repeat;
 }
 
 /*************** SERVICES **************/
 
 .services{
-  border: 1px solid  rgb(223, 230, 236);
-  padding: 30px;
-  background-color: rgb(223, 230, 236);
+border: 1px solid  rgb(223, 230, 236);
+padding: 30px;
+background-color: rgb(223, 230, 236);
 
 }
 .services h1{
-  text-align: center;
+text-align: center;
 }
 .span{
-  border: 1px solid green;
-  margin-left: 600px;
-  margin-right: 600px;
+border: 1px solid green;
+margin-left: 600px;
+margin-right: 600px;
 }
 .services2{
-  text-align: center;
+text-align: center;
 }
 .service-offered{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  margin-left: 200px;
-  margin-right: 80px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px;
+margin-left: 200px;
+margin-right: 80px;
 }
 .right{
-  margin-left:10px;
-  padding: 10px;
+margin-left:10px;
+padding: 10px;
 }
 .right ul li{
-  padding: 9px;
+padding: 9px;
 }
 .left ul li{
-  padding: 9px;
+padding: 9px;
 }
 
 
@@ -150,64 +149,192 @@
 /* **********  SECTION 6 *************/
 
 .both-sides{
-  display: flex;
-  margin-top: 70px;
-  margin-left: 60px;
-  border: 1px solid red;
+display: flex;
+margin-top: 70px;
+margin-left: 60px;
+border: 1px solid red;
 }
 
 .right1{
-  margin-left: 340px;
+margin-left: 340px;
 }
 
 .left1 h3{
-  margin-right: 120px;
-  font-weight: bold;
-  font-size: 1.5em;
-  border-bottom: 1px solid  green ;
+margin-right: 120px;
+font-weight: bold;
+font-size: 1.5em;
+border-bottom: 1px solid  green ;
 }
 
 /* **********  SECTION INSPECTOR *************/
 
 .container_inspector{
-  padding-top: 5px;
-  padding-bottom: 5px;
+padding-top: 5px;
+padding-bottom: 5px;
 }
 
 .cont_inspector{
+display: flex;
+font-size: 360%;
+position: absolute;
+text-align: center;
+top: 55%;
+left: 8em;
+}
+
+.cont_inspector-pict{
+margin-right: 250px;
+
+}
+
+.container_program{
+margin-top: 1px;
+padding: 200px;
+font-style: normal;
+
+}
+
+.cont_inspector_p1{
+padding-top: 5px;
+
+}
+
+.cont_inspector_p2{
+padding-top: 5px;
+
+}
+
+.row{
+margin-top: initial;
+padding: 40px;
+}
+
+/* **********  SECTION REAL ESTATE *************/
+
+.container_inspector{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  }
+  
+  .cont_inspector{
   display: flex;
   font-size: 360%;
   position: absolute;
   text-align: center;
   top: 55%;
   left: 8em;
-}
-
-.cont_inspector-pict{
+  }
+  
+  .cont_inspector-pict{
   margin-right: 250px;
-
-}
-
-.container_program{
+  
+  }
+  
+  .container_real{
   margin-top: 1px;
   padding: 200px;
- font-style: normal;
-
-}
-
-.cont_inspector_p1{
+  font-style: normal;
+  
+  }
+  
+  .cont_real_p1{
   padding-top: 5px;
-
-}
-
-.cont_inspector_p2{
+  
+  }
+  
+  .cont_real_p2{
   padding-top: 5px;
+  
+  }
+ 
+   .row1{
+    display: flex; 
+    margin-top: initial;
+    padding: 40px;
+  } 
+  
 
+  /* **********  SECTION ABOUT US *************/
+.container_about{
+  display: flex;
+  padding-top: 70px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 70px;
 }
 
-.row{
+.cont_about_p{
+  font-size: 20px;
+  font-style: italic;
+}
+
+.row2{
+  display: flex;
   margin-top: initial;
-  padding: 40px;
+  padding: 100px;
+  font-size: 20px;
 }
+
+.column1-4{
+  margin-right: 120px;
+}
+
+.column2-4{
+  margin-right: 260px;
+}
+
+  /* **********  SECTION ABOUT US *************/
+
+  .container_contact{
+    margin-top: 1px;
+    padding: 200px;
+  font-size: 18px;
+    
+    }
+    
+    .cont_contact_p{
+    padding-top: 5px;
+    
+    }
+
+    *{
+      padding: 0;
+      margin: 0;
+      background-color: #eeee;
+    }
+
+    .comment-box{
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      width: 500px;
+    }
+
+    .comment-box p{
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+
+    .comment-box input{
+      width: 100%;
+      height: 50px;
+      padding: 0 20px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #86b0;
+
+    }
+
+    .comment-box textarea{
+      width: 100%;
+      height: 150px;
+      padding: 15px 20px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #86b0b6;
+
+    }
+
 
 
